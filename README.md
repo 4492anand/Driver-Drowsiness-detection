@@ -19,10 +19,16 @@ Alert Mechanism: Provides visual and/or audible alerts to notify the driver when
 Prerequisites
 Before running the driver drowsiness detection system, ensure you have the following prerequisites installed:
 
-Python 3.x
-OpenCV (cv2)
-dlib
-scipy
+# pre-req
+
+Python 3.x,
+
+OpenCV (cv2),
+
+dlib,
+
+scipy,
+
 numpy
 
 # You can install these dependencies using pip:
