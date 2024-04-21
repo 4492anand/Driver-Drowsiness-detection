@@ -1,0 +1,32 @@
+# Read me,
+# Driver Drowsiness Detection System
+
+## Introduction
+This project implements a driver drowsiness detection system using computer vision techniques. It utilizes a webcam to monitor the driver's facial expressions and detect signs of drowsiness based on eye behavior.
+
+## Prerequisites
+Before running this system, ensure you have the following installed:
+- Python 3.x
+- OpenCV (cv2)
+- dlib
+- scipy
+- numpy
+
+You can install these dependencies using pip:
+
+Additionally, you'll need the pre-trained facial landmark detector file (`shape_predictor_68_face_landmarks.dat`). You can download it from the following link:
+[Pre-trained Facial Landmark Detector](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
+
+Extract the file and place it in the same directory as the Python script.
+
+## How to Use
+1. Clone or download this repository to your local machine.
+2. Ensure all prerequisites are installed and the pre-trained facial landmark detector file is available.
+3. Run the `drowsiness_detection.py` script using Python.
+4. A webcam window will open, monitoring the driver's facial expressions in real-time.
+5. If drowsiness is detected (e.g., eyes closed for an extended period), an alert will be displayed.
+
+## Contributors
+Jyothi Anand
+
+
